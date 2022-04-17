@@ -1,0 +1,35 @@
+html, body {
+    text-align: center;
+}
+.myCanvas {
+    margin: 100px auto 0;
+}
+.canBtn {
+    margin-top: 20px;
+}
+.canBtn button {
+    padding: 8px 15px;
+    border-radius: 3px;
+    border: 1px solid rgba(111,1,111,1);
+    color: #ffffff;
+    background-color: rgba(111,1,111,.8);
+    cursor: pointer;
+}
+.canBtn .over {
+    display: none;
+    position: absolute;
+    top: calc(40% - 30px);
+    left: calc(50% - 64px);
+    color: #fff;
+}
+.canBtn .restart {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid brown;
+    background-color: firebrick;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
